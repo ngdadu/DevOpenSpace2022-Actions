@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: dispatch
-        run: echo "hello ${{ inputs.pName }}!"
+        run: echo "hello ${{ inputs.name }}!"
