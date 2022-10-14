@@ -1,7 +1,7 @@
 name: Demo4
 on:
   schedule:
-    - cron: "*/2 * * * *"
+    - cron: "*/5 * * * *"
 jobs:
   greeting:
     runs-on: ubuntu-latest
