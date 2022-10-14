@@ -12,3 +12,5 @@ jobs:
     steps:
       - name: dispatch
         run: echo "hello ${{ inputs.name }}!"
+      - name: Echo event
+        run: cat $GITHUB_EVENT_PATH
