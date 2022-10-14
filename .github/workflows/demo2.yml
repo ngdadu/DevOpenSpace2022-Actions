@@ -1,10 +1,14 @@
 name: Demo2
 on:
   workflow_dispatch:
-    
+    inputs:
+      name: 
+        description: pName
+        required: true
+        type: string
 jobs:
   greeting:
     runs-on: ubuntu-latest
     steps:
       - name: dispatch
-        run: echo dispatch DevOpenSpace!
+        run: echo "hello ${{ inputs.pname }}!"
