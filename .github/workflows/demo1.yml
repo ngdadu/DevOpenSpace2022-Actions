@@ -4,7 +4,7 @@ on:
     branches: [ main ]
 jobs:
   greeting:
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps:
       - name: Say Hello
-        run: echo hello DevOpenSpace
+        run: echo hello DevOpenSpace!
